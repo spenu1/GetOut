@@ -21,7 +21,7 @@ export class Player{
         if(this.x <=0){
             this.right = true;
         }
-        if (this.x >= 1000){
+        if (this.x >= 500){
             this.right = false;
         }
 
@@ -35,7 +35,7 @@ export class Player{
         if(this.y <=0){
             this.up = true;
         }
-        if (this.y >= 1000){
+        if (this.y >= 500){
             this.up = false;
         }
 
