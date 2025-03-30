@@ -21,7 +21,7 @@ export class Player{
         if(this.x <=0){
             this.right = true;
         }
-        if (this.x >= 500){
+        if (this.x >= 2000){
             this.right = false;
         }
 
